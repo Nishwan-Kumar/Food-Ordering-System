@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-Private-red?style=for-the-badge" alt="License" />
 </p>
 
-<h1 align="center">🍕 Slooze — Food Ordering System</h1>
+<h1 align="center">🍕 Food Ordering System</h1>
 
 <p align="center">
   <strong>A full-stack food ordering platform with Role-Based Access Control (RBAC) and country-scoped data isolation.</strong>
@@ -47,7 +47,7 @@
 ## 📁 Project Structure
 
 ```
-slooze/
+food-ordering-system/
 ├── app/
 │   ├── api/
 │   │   ├── auth/
@@ -99,8 +99,8 @@ slooze/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/slooze.git
-cd slooze
+git clone https://github.com/Nishwan-Kumar/Food-Ordering-System.git
+cd Food-Ordering-System
 ```
 
 ### 2. Install Dependencies
@@ -114,7 +114,7 @@ npm install
 Create a `.env.local` file in the project root:
 
 ```env
-MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/slooze?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/food-ordering?retryWrites=true&w=majority
 JWT_SECRET=your-super-secret-jwt-key
 JWT_EXPIRES_IN=7d
 ```
